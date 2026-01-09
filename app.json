@@ -1,26 +1,26 @@
 {
   "expo": {
-    "name": "DVSupportAppWorking",
-    "slug": "DVSupportAppWorking",
+    "name": "DV Support",
+    "slug": "dv-support-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kendychae.dvsupportapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.kendychae.dvsupportapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
