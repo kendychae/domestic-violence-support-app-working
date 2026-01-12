@@ -84,14 +84,16 @@
 
 ### A. App Structure
 
-**📁 Open File:** `App.js` (root folder)
-**📍 Go to Lines:** 13-30
+**� OPEN THIS FILE: App.js**
+(It's in the main/root folder of your project)
+
+**📍 Scroll to Lines:** 13-30
 
 **Say:**
 
 > "The app is built with React Native and uses React Navigation. In App.js, I set up five screens using Stack Navigator."
 
-**Point to Lines 26-42** (the Stack.Screen components):
+**Point to Lines 26-42** (where you see the Stack.Screen tags):
 
 ```javascript
 <Stack.Screen name="Home" component={HomeScreen} />
@@ -106,14 +108,16 @@
 
 ### B. Phone Integration
 
-**📁 Open File:** `src/screens/EmergencyContactsScreen.js`
-**📍 Go to Lines:** 120-135 (scroll down to find the `handleCallContact` function)
+**� OPEN THIS FILE: EmergencyContactsScreen.js**
+(Go to: src folder → screens folder → EmergencyContactsScreen.js)
+
+**📍 Scroll to Lines:** 120-135 (look for the function called `handleCallContact`)
 
 **Say:**
 
 > "For phone integration, I used React Native's Linking API. This function opens the phone's dialer when users tap a contact."
 
-**Point to Line 130** (the Linking.openURL line):
+**Point to Line 130** (where it says Linking.openURL):
 
 ```javascript
 Linking.openURL(`tel:${contact.phone}`);
@@ -127,8 +131,10 @@ Linking.openURL(`tel:${contact.phone}`);
 
 ### C. Local Storage
 
-**📁 Open File:** `src/utils/storage.js`
-**📍 Go to Lines:** 31-39 (the saveContacts function)
+**� OPEN THIS FILE: storage.js**
+(Go to: src folder → utils folder → storage.js)
+
+**📍 Scroll to Lines:** 31-39 (look for the function called `saveContacts`)
 
 **Say:**
 
@@ -147,7 +153,7 @@ export const saveContacts = async (contacts) => {
 
 > "The saveContacts function converts the contacts array to JSON and stores it. Even if the user closes the app or turns off their phone, the data stays saved."
 
-**📍 Scroll to Lines:** 50-56 (the getContacts function)
+**📍 Now Scroll Down to Lines:** 50-56 (look for the function called `getContacts`)
 
 **Point to Lines 50-56:**
 
@@ -166,8 +172,10 @@ export const getContacts = async () => {
 
 ### D. State Management
 
-**📁 Open File:** `src/screens/EmergencyContactsScreen.js`
-**📍 Go to Lines:** 36-44 (scroll to top of the component)
+**� OPEN THIS FILE: EmergencyContactsScreen.js**
+(Same file as before: src folder → screens folder → EmergencyContactsScreen.js)
+
+**📍 Scroll to the TOP - Lines:** 36-44 (look for `useState` and `useEffect`)
 
 **Say:**
 
