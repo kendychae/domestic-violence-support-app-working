@@ -192,6 +192,7 @@ useEffect(() => {
 ### E. Multiple Screens
 
 **📁 Quickly open these files to show:**
+
 - `src/screens/HomeScreen.js` (lines 1-10 to show the component)
 - `src/screens/SafetyPlanScreen.js` (lines 1-10)
 - `src/screens/HelplineScreen.js` (lines 1-10)
